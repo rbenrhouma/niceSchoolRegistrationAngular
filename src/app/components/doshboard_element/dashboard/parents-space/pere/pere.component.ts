@@ -8,6 +8,7 @@ import { Parent } from 'src/app/Shared/models/parent';
   templateUrl: './pere.component.html',
   styleUrls: ['./pere.component.css']
 })
+
 export class PereComponent implements OnInit {
   formParentsService: FormGroup;
   Parent: Parent = new Parent();

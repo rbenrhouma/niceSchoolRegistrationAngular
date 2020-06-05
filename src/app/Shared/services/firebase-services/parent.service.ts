@@ -7,7 +7,7 @@ import {
 import { Parent } from "../../models/parent";
 import { Observable } from "rxjs";
 import { AuthService } from "../../../shared/services/auth.service";
-import { User } from "../../models/user";
+import { User } from "src/app/shared/models/user";
 import { FormGroup, FormControl, Validators } from "@angular/forms";
 
 @Injectable({

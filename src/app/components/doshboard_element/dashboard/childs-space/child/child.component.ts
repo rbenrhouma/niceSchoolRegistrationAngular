@@ -21,8 +21,8 @@ export class ChildComponent implements OnInit {
   ngOnInit(): void {
     this.userForm = new FormGroup({});
     this.userForm = this.createUserModelForm();
-
   }
+  
   createUserModelForm() {
     return this.formBuilder.group({
       Anglais: [this.child.Anglais],
@@ -71,11 +71,12 @@ export class ChildComponent implements OnInit {
   opencard2:boolean=false
   opencard3:boolean=false
   opencard4:boolean=false
+
   onSubmit(UserForm) {
     console.log(UserForm.value)
   }
 
-
+// Jamais !!!
   open(id){
     if(id=='math'){
       this.opencard1=! this.opencard1
